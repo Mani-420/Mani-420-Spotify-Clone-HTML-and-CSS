@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <title>Spotify - Web Player:Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png" alt="lib image">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-boxes">
+                    <div class="box">
+                        <p class="box-p1">Create your 1st playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create your playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcast to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="direction">
+                    <img src="backward_icon.png" alt="back">
+                    <img src="forward_icon.png" class="hide" alt="for">
+                </div>
+                <div class="downloads">
+                    <button class="badge nav-items hide">Explore Premium</button>
+                    <button class="badge nav-items dark-badge"><i class="fa-solid fa-download"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-items download"></i>
+                </div>
+            </div>
+            <h2>Top Artist</h2>
+            <div class="cards-container1">
+                <div class="card1">
+                    <img class="card-image1" src="card1.webp" alt="Artist">
+                    <p class="card-title">Atif Aslam</p>
+                    <p class="card-info">Artist & Singer</p>
+                </div>
+                <div class="card1">
+                    <img class="card-image1" src="card2.webp" alt="Artist">
+                    <p class="card-title">Rahat Fateh Ali</p>
+                    <p class="card-info">Artist & Singer</p>
+                </div>
+                <div class="card1">
+                    <img class="card-image1" src="card3.webp" alt="Artist">
+                    <p class="card-title">Ali Zafar</p>
+                    <p class="card-info">Artist & Singer</p>
+                </div>
+                <div class="card1">
+                    <img class="card-image1" src="card4.webp" alt="Artist">
+                    <p class="card-title">Ali Sethi</p>
+                    <p class="card-info">Artist & Singer</p>
+                </div>
+            </div>
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img class="card-image" src="rahat.jfif" alt="">
+                    <p class="card-title">Rahat Fateh Ali Khan</p>
+                    <p class="card-info">Ore piya re piya</p>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="sidhuu.jfif" alt="">
+                    <p class="card-title">Sidhu Moose Wala</p>
+                    <p class="card-info">295</p>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="atif.jfif" alt="">
+                    <p class="card-title">Atif Aslam</p>
+                    <p class="card-info">Rafta Rafta</p>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="pasoori.jfif" alt="">
+                    <p class="card-title">Ali Sethi</p>
+                    <p class="card-info">Pasoori</p>
+                </div>
+            </div>
+            <h2>Famous Albums</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img class="card-image" src="billie ocean eyes.jfif" alt="">
+                    <p class="card-title">Ocean Eyes</p>
+                    <p class="card-info">Billie Eillish</p>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="dragon smoke mirror.jfif" alt="">
+                    <p class="card-title">Smoke + Mirror</p>
+                    <p class="card-info">Imagine Dragons</p>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="taylor red.jfif" alt="">
+                    <p class="card-title">Red</p>
+                    <p class="card-info">Taylor Swift</p>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="katy perry one of the boys.jfif" alt="">
+                    <p class="card-title">One of the Boys</p>
+                    <p class="card-info">Katy Perry</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="song-img">
+                    <img src="card3img.jpeg" alt="card1">
+                </div>
+                <div class="song-info">
+                    <p class="song-title">Dil-lagi bhool </p>
+                    <p class="singer">Rahay Fateh Ali Khan</p>
+                </div>
+                <div class="liked-icon">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-hard-drive"></i>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="player_icon1.png" class="pc-icon">
+                    <img src="player_icon2.png" class="pc-icon">
+                    <img src="player_icon3.png" class="pc-icon" style="opacity: 1;height: 2rem;">
+                    <img src="player_icon4.png" class="pc-icon">
+                    <img src="player_icon5.png" class="pc-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="c-time">00:00</span>
+                    <input type="range" min="0" max="100" step="1" class="progress-bar">
+                    <span class="t-time">03:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-regular fa-images"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="0" max="100" class="vol-bar">
+            </div>   
+        </div>
+    </div>
+</body>
+</html>
